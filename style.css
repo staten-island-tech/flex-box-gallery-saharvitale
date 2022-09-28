@@ -9,9 +9,15 @@ body,
 .parent {
   font-size: 10px;
 }
+h2 {
+  margin: 1rem;
+}
 .px-size {
   font-size: 10px;
 }
 .rem-size {
   font-size: 1rem;
+}
+.em-size {
+  font-size: 2em;
 }
