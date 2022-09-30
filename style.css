@@ -7,17 +7,27 @@ body,
   font-size: 62.5%;
 }
 .parent {
-  font-size: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space space-between;
+  align-items: flex-end;
 }
 h2 {
-  margin: 1rem;
+  margin: 2rem;
 }
 .px-size {
-  font-size: 10px;
+  font-size: 20px;
+  width: 18%;
+  border: 3px solid pink;
+  height: 500px;
 }
 .rem-size {
-  font-size: 1rem;
+  font-size: 2rem;
+  border: 3px solid red;
+  height: 200px;
 }
 .em-size {
-  font-size: 2em;
+  font-size: 1em;
+  border: 3px solid green;
+  height: 350px;
 }
