@@ -7,27 +7,48 @@ body,
   font-size: 62.5%;
   background-image: url("https://th.bing.com/th/id/OIP.usDdkbs9p6DlH6vyi8ZmSwHaDy?w=295&h=178&c=7&r=0&o=5&pid=1.7");
   color: white;
+  font-family: monospace;
 }
-.parent {
-  font-size: 20px;
-  display: flex;
-  justify-content: space space-between;
-  align-items: flex-end;
+h1 {
+  background: darkgray;
+  font-size: 10rem;
+  text-align: center;
+  margin-bottom: 10rem;
 }
 h2 {
-  margin: 2rem;
+  background: darkgrey;
 }
-.mario {
-  font-size: 20px;
-  width: 18%;
+
+.icons {
+  font-size: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-between;
+  height: 100%;
+
+  row-gap: 50px;
 }
-.luigi {
+
+.card {
+  font-size: 3rem;
+  border: radius 15px;
+  text-align: center;
+  padding: 5rem;
+  flex: 0 32%;
+  height: 30rem;
+  background: darkgrey;
+  max-width: 35rem;
+  box-shadow: 10px 5px 5px;
+  margin: 90px;
+}
+p {
+  border-radius: 15px;
+  text-align: center;
   font-size: 2rem;
-  border: 3px solid red;
-  height: 500px;
+  background: darkgrey;
 }
-.rosalina {
-  font-size: 1em;
-  border: 3px solid green;
-  height: 500px;
+img {
+  background: darkgrey;
 }
