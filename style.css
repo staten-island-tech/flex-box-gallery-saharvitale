@@ -16,7 +16,7 @@ h1 {
   margin-bottom: 10rem;
 }
 h2 {
-  background: darkgrey;
+  background: darkgray;
 }
 
 .icons {
@@ -38,7 +38,7 @@ h2 {
   padding: 5rem;
   flex: 0 32%;
   height: 30rem;
-  background: darkgrey;
+  background: darkgray;
   max-width: 35rem;
   box-shadow: 10px 5px 5px;
   margin: 90px;
@@ -47,7 +47,7 @@ p {
   border-radius: 15px;
   text-align: center;
   font-size: 2rem;
-  background: darkgrey;
+  background: darkgray;
 }
 img {
   background: darkgrey;
