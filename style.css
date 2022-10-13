@@ -5,13 +5,12 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  background-image: url("https://th.bing.com/th/id/OIP.usDdkbs9p6DlH6vyi8ZmSwHaDy?w=295&h=178&c=7&r=0&o=5&pid=1.7");
+  background-image: url("https://media.boingboing.net/wp-content/uploads/2015/09/marioclouds.gif");
   color: white;
   font-family: monospace;
 }
 h1 {
-  background: darkgray;
-  font-size: 10rem;
+  font-size: 20rem;
   text-align: center;
   margin-bottom: 10rem;
 }
@@ -42,6 +41,7 @@ h2 {
   max-width: 35rem;
   box-shadow: 10px 5px 5px;
   margin: 90px;
+  border-radius: 25px;
 }
 p {
   border-radius: 15px;
