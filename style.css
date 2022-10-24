@@ -21,7 +21,7 @@ h1 {
 h2 {
   background: darkgray;
 }
- 
+
 .icons {
   font-size: 30px;
   display: flex;
@@ -33,7 +33,7 @@ h2 {
   background: transparent;
   row-gap: 50px;
 }
- 
+
 .card {
   font-size: 3rem;
   border: radius 15px;
@@ -57,17 +57,12 @@ p {
 img {
   background: transparent;
 }
- 
+
 .card:hover {
   transform: scale(1.5);
 }
-<<<<<<< Updated upstream
- 
- #m-img:hover {
-=======
 
 #m-img:hover {
->>>>>>> Stashed changes
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -76,28 +71,17 @@ img {
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
-<<<<<<< Updated upstream
-#m-img:hover, 
-#m-img:focus, 
-=======
 #m-img:hover,
 #m-img:focus,
->>>>>>> Stashed changes
 #m-img:active {
   -webkit-transform: scale(1.3);
   transform: scale(1.7);
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
-<<<<<<< Updated upstream
-  
-  #l-img:hover{
-    display: inline-block;
-=======
 
 #l-img:hover {
   display: inline-block;
->>>>>>> Stashed changes
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
@@ -107,16 +91,6 @@ img {
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-<<<<<<< Updated upstream
-#l-img:hover, 
-#l-img:focus, 
-#l-img:active {
-  -webkit-transform: rotate(4deg);
-  transform: rotate(15deg);
-  }
-  
-  #r-img:hover{
-=======
 #l-img:hover,
 #l-img:focus,
 #l-img:active {
@@ -125,7 +99,6 @@ img {
 }
 
 #r-img:hover {
->>>>>>> Stashed changes
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -141,20 +114,12 @@ img {
   pointer-events: none;
   position: absolute;
   z-index: -1;
-<<<<<<< Updated upstream
-  content: '';
-=======
   content: "";
->>>>>>> Stashed changes
   top: 100%;
   left: 5%;
   height: 10px;
   width: 90%;
   opacity: 0;
-<<<<<<< Updated upstream
-  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
-  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
-=======
   background: -webkit-radial-gradient(
     center,
     ellipse,
@@ -166,7 +131,6 @@ img {
     rgba(0, 0, 0, 0.35) 0%,
     rgba(0, 0, 0, 0) 80%
   );
->>>>>>> Stashed changes
   /* W3C */
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
@@ -181,26 +145,15 @@ img {
   /* move the element up by 5px */
 }
 #r-img:hover:before,
-<<<<<<< Updated upstream
-#r-img:focus:before, 
-=======
 #r-img:focus:before,
->>>>>>> Stashed changes
 #r-img:active:before {
   opacity: 1;
   -webkit-transform: translateY(15px);
   transform: translateY(15px);
-<<<<<<< Updated upstream
-  }
-  
-  #p-img:hover {
-    display: inline-block;
-=======
 }
 
 #p-img:hover {
   display: inline-block;
->>>>>>> Stashed changes
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
@@ -210,22 +163,13 @@ img {
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-<<<<<<< Updated upstream
-#p-img:hover, 
-=======
 #p-img:hover,
->>>>>>> Stashed changes
 #p-img:focus,
 #p-img:active {
   -webkit-transform: scale(0.7);
   transform: scale(0.7);
-<<<<<<< Updated upstream
-  }
-  #d-img:hover {
-=======
 }
 #d-img:hover {
->>>>>>> Stashed changes
   animation-name: rotate;
   animation-duration: 0.7s;
 }
@@ -238,25 +182,21 @@ img {
     transform: rotate(360deg);
   }
 }
-<<<<<<< Updated upstream
-=======
+@media (max-width: 320px) {
+  .card {
+    flex-basis: 30%;
+  }
+  #title {
+    flex-basis: 90%;
+    width: 90%;
+  }
+}
 @media (max-width: 768px) {
   .card {
     flex-basis: 90%;
   }
   #title {
     flex-basis: 90%;
-    width: 100%;
+    width: 90%;
   }
 }
-
-@media (max-width: 320px) {
-  .card {
-    flex-basis: 90%;
-  }
-  #title {
-    flex-basis: 90%;
-    width: 100%;
-  }
-}
->>>>>>> Stashed changes
